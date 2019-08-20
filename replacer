@@ -1,0 +1,14 @@
+echo "https://google" | sed 's/\/\//\_/' # // to _
+https:_google
+echo "https://google/fgf/dfsfd" | sed 's/\/\//\_/' 
+https:_google/fgf/dfsfd
+echo "https://google/fgf/dfsfd" | sed 's/\/\//\_/' | sed 's/\:/\_/' # :// to __
+https__google/fgf/dfsfd
+echo "https://google/fgf/dfsfd" | sed 's/\/\//\_/' | sed 's/\:/\_/' | sed 's/\/\_//'
+https__google/fgf/dfsfd
+echo "https://google/fgf/dfsfd" | sed 's/\/\//\_/' | sed 's/\:/\_/' | sed 's/\/_//'
+https__google/fgf/dfsfd
+echo "https://google/fgf/dfsfd" | sed 's/\/\//\_/' | sed 's/\:/\_/' | sed 's/google/_/'
+https___/fgf/dfsfd
+echo "https://google/fgf/dfsfd" | sed 's/\/\//\_/' | sed 's/\:/\_/' | sed 's/\//_/'
+https__google_fgf/dfsfd
